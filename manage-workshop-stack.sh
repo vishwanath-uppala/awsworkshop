@@ -1,19 +1,4 @@
-#!/bin/bash
-
-# STACK_OPERATION=$1
-
-# if [[ "$STACK_OPERATION" == "create" || "$STACK_OPERATION" == "update" ]]; then
-#     # deploy / update workshop resources
-# elif [ "$STACK_OPERATION" == "delete" ]; then
-#     # delete workshop resources
-# else
-#     echo "Invalid stack operation!"
-#     exit 1
-# fi
-
 #!/bin/bash -x
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-# SPDX-License-Identifier: MIT-0
 
 STACK_OPERATION="$1"
 
